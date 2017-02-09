@@ -1,0 +1,12 @@
+
+  Git命令常见：git clone、git remote、git fetch、git pull、git push、	
+
+  $ git clone <版本库的网址> <本地目录名>。              支持多种协议，除了HTTP(s)以外，还支持SSH、Git、本地文件协议等
+
+  git remote--列出所有远程主句。  用于管理主机名   使用-v选项，可以参看远程主机的网址。
+
+  git fetch--把远程主机库更新取回到本地库。  $ git fetch <远程主机名> <分支名>--取回特定分支的更新
+
+  git pull--取回远程主机某个分支的更新，并把该分支与本地的制定分支合并。$ git pull <远程主机名> <远程分支名>:<本地分支名>
+
+  git push--将本地分支的更新，推送到远程主机。 $ git push <远程主机名> <本地分支名>:<远程分支名>
